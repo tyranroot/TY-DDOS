@@ -21,7 +21,7 @@
 - 🛡️ Bypasses basic rate‑limiting & WAF rules  
 - 🧬 Obfuscated payload delivery  
 - ⚙️ Low CPU footprint with high throughput  
-- 🧪 Tested on Kali Linux, Parrot OS, Ubuntu  
+- 🧪 Tested on Kali Linux, Parrot OS, Ubuntu, Termux
 
 ---
 ## How to Install ?? 
