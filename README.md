@@ -1,1 +1,37 @@
-# TY-DDOS
+# 🧨 Ty-DDoS - Advanced Network Stress Testing Tool
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" />
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Kali%20%7C%20Parrot-red" />
+  <img src="https://img.shields.io/badge/License-Educational%20Only-orange" />
+  <img src="https://img.shields.io/badge/Status-Undetected-brightgreen" />
+</p>
+
+<p align="center">
+  <b>⚡ Ty-DDoS — Powerful Layer 7 & Layer 4 Stress Testing Framework ⚡</b><br>
+  <i>Designed for Security Researchers & Penetration Testers</i>
+</p>
+
+---
+
+## 🕶️ Features
+
+- 🔥 Multi‑threaded & asynchronous attack engine  
+- 🧠 Randomized packet generation (TCP/UDP/HTTP)  
+- 🛡️ Bypasses basic rate‑limiting & WAF rules  
+- 🧬 Obfuscated payload delivery  
+- ⚙️ Low CPU footprint with high throughput  
+- 🧪 Tested on Kali Linux, Parrot OS, Ubuntu  
+
+---
+
+## 📸 Preview
+
+```bash
+$ python3 Ty-ddos.py -t 192.168.1.100 -p 80 -d 120
+
+[+] Target         : 192.168.1.100:80
+[+] Duration       : 120 seconds
+[+] Threads        : 500
+[+] Method         : RANDOM (TCP/UDP/HTTP)
+[+] Status         : ATTACKING → Packets Sent: 184,392
